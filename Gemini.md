@@ -2,7 +2,7 @@
 
 This document outlines the architecture, technology stack, and development plan for the NoCode Test Automation Platform. The goal is to create a web-based application that allows users to build, manage, and execute automated functional tests without writing code.
 
-**Last Updated:** July 10, 2025
+**Last Updated:** July 12, 2025
 
 ## 1. Product Goal
 
@@ -16,6 +16,16 @@ To empower users, including manual testers and business analysts, to automate fu
 -   **Custom Step Creation:** If a required step doesn't exist, users can define new steps and their underlying implementation logic.
 -   **One-Click Execution:** A simple button to trigger the execution of defined test scenarios.
 -   **Results Dashboard:** A view to see the history and results of test executions.
+
+### Backend APIs
+
+-   **Test Cases API (`/api/v1/testcases`)**:
+    -   `POST /`: Creates a new test case.
+    -   `GET /`: Retrieves all test cases.
+    -   `GET /{id}`: Retrieves a single test case by its ID.
+    -   `DELETE /{id}`: Deletes a test case.
+-   **Health Check API (`/api/v1/health`)**:
+    -   `GET /`: Retrieves the health status of the application and its internal services.
 
 ## 3. Recommended Technology Stack
 

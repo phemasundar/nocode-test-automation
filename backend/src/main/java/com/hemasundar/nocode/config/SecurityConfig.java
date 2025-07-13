@@ -1,8 +1,6 @@
 package com.hemasundar.nocode.config;
 
-import com.clerk.jwts.JwtDecoder;
-import com.clerk.jwts.Jwks;
-import com.clerk.jwts.JwksProvider;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
