@@ -19,6 +19,7 @@ To empower users, including manual testers and business analysts, to automate fu
 
 ### Backend APIs
 
+-   **Swagger UI (`/swagger-ui.html`)**: Provides interactive API documentation.
 -   **Test Cases API (`/api/v1/testcases`)**:
     -   `POST /`: Creates a new test case.
     -   `GET /`: Retrieves all test cases.

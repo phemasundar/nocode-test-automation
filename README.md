@@ -19,6 +19,7 @@ To empower users, including manual testers and business analysts, to automate fu
 
 ### Backend APIs
 
+-   **Swagger UI (`/swagger-ui.html`)**: Provides interactive API documentation.
 -   **Test Cases API (`/api/v1/testcases`)**:
     -   `POST /`: Creates a new test case.
     -   `GET /`: Retrieves all test cases.
@@ -26,6 +27,11 @@ To empower users, including manual testers and business analysts, to automate fu
     -   `DELETE /{id}`: Deletes a test case.
 -   **Health Check API (`/api/v1/health`)**:
     -   `GET /`: Retrieves the health status of the application and its internal services.
+
+### Frontend Features
+
+-   **View Test Case Details**: View detailed information about a test case in a popup modal.
+-   **Delete Test Case**: Delete a test case from the dashboard.
 
 ## 3. Recommended Technology Stack
 
